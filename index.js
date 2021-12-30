@@ -1,4 +1,4 @@
-const readlineSync= require("readline-sync");
+var readlineSync= require("readline-sync");
 var userName= readlineSync.question("What is your name? ");
 var score=0;
 const highscore=3;
